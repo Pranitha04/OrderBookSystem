@@ -1,1 +1,47 @@
+.th
+{
 
+font-family:"Comic Sans MS";
+font-size-adjust:0.75;
+font-weight:bolder;
+
+}
+p.style
+{
+font-style:oblique;
+
+font-weight:200;
+}
+a:link
+{
+
+color:green;
+font-family:"Arial";
+}
+
+a:visited
+{
+color:blue;
+}
+
+a:hover
+{
+color:pink;
+}
+a:active
+{
+color:red;
+
+font-family:"Palantino Linotype";
+}
+.borer
+{
+
+border-width:10px;
+border-color:grey grey grey red;
+border-style:solid;
+
+text-align: left;
+text-indent: 50px;
+text-transform: uppercase;
+}
