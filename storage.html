@@ -1,1 +1,48 @@
+<html>
+<head>
 
+<title>Database Storage</title>
+<script  src="db.js" type="text/javascript">
+</script>
+</head>
+
+<body>
+<body bgcolor="pink">
+
+<div style="margin-left:400px;border:2px dashed red;width:700px;float:left;top:200px;"> <table align="center" width="50%" border="0" cellspacing="3" cellpadding="5" >
+
+<th align="center" colspan="2"> Fill Credentials For Storage</th> <tr><td align="center">EMP-ID</td>
+<td align="center"><input type="text" id="eid" size="15"></td> </tr>
+<tr><td align="center">DEPARTMENT</td>
+
+<td align="center"><input type="text" id="dep" size="15"></td> </tr>
+
+<tr><td align="center">SALARY</td>
+
+<td align="center"><input type="text" id="sal" size="15"></td> </tr>
+
+<tr><td align="center" colspan="2">ADDRESS<br><textarea rows="6" id="add"> </textarea></td>
+
+</tr>
+
+<tr><td align="center"><input type="submit" value="Display" onclick="disc()"></td>
+<td align="center"><input type="submit" onclick="subb()"></td>
+</tr>
+
+</table>
+</div>
+
+<div style="margin-left:400px;border:2px dashed red;width:700px;float:left;top:200px;">
+
+<table align="center" width="100%" border="0" cellspacing="3" cellpadding="5" id="my"> <tr><td><b>EMP-ID</b></td>
+
+<td><b>DEPARTMENT</b></td>
+<td><b>SALARY</b></td>
+
+<td><b>ADDRESS</b></td>
+</tr>
+</table>
+
+</div>
+  </body>
+  </html>
