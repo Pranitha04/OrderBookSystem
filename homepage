@@ -1,0 +1,44 @@
+<html>
+  <head> 
+        <title> 
+            BOOK STORE
+        </title>       
+       </head> 
+<body BGCOLOR="#44BB22"> 
+        <div id="header" >
+            <table width="100%">
+            <tr><td width="10%">
+                <img src="a1.jpg" align="left" width="100" height="100" /></td><td>
+                <h1 align="center" style="COLOR:RED">WELCOME TO MY BOOK STORE</h1> </td></tr></table>     
+                <table width="100%" cellpadding="15"> 
+                                  <tr><i>
+                        <td ><a href="Home.html" target="i1"><i>Home</i></a></td>  
+                        <td><a href="latest.html" target="i1"><i> Latest Arrivals</i></a></td> 
+                        <td><a href="best.html"  target="i1"><i>Best Sellers</i></a></td>  
+                        <td><a href="contactus.html" targer="i1"><i>Contact Us</i></a></td> 
+                         <td><a href="search.html" targer="i1"><i>Search</i></a></td>  </i> 
+                </tr></table>
+        </div>
+        <hr color="black" />                                                   
+                                <div id="left" style="margin-left:4px;width:200px; 
+                                 height:420px; float:left; font-size: 20px;border:2px solid;">
+                                <br /><br />
+                                <a href="cat1.html" target="i1"> Computers</a><br /><br />
+                                <a href="ec.html" target="i1">Electronics</a><br /><br />
+                                <a href="ee.html" target="i1">Electrical</a><br /><br />
+                                <a href="bt.html" target="i1">Bio-Tech</a><br /><br />
+                                 </div>       
+                        <div id="main" style="margin-left:10px;width:720px;height:420px;float:left;">
+<iframe name="i1" src="main.html" width="720px" height="420px" border="none"></iframe>   </div> </td>                 <td> 
+  <div id="right" style="margin-left:34px;width:300px; 
+      height:420px; float:left;border:2px solid;">
+              <form> <table><tr><td>
+         UserName:<input type="text"></td></tr><tr><td> <br />  
+         Password:<input type="Password"></td></tr>    
+      <tr><td align="center"><input type="submit" value="Sign-in">
+                                </td></tr>
+                                <tr><td>New-user </td></tr><tr><td align="center"><a href="reg.html" target="i1"> Create An Account</a></td></tr></table> </form> </div></td></tr>  </table>
+</body>
+</html>
+
+
